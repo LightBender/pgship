@@ -1,0 +1,10 @@
+name "pgship"
+description "pgship is a simple schema migration tool for PostgreSQL."
+authors "Adam Wilson"
+copyright "Copyright © EllipticBit 2020"
+license "BSL-1.0"
+targetType "executable"
+
+dependency "sdlang-d" version="0.10.5"
+dependency "pgsql-lited" version="0.0.7"
+dependency "secured" version="2.0.2"
